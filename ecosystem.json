@@ -9,7 +9,7 @@
         "host" : ["13.126.22.0"],
         "ref"  : "origin/master",
         "repo" : "git@github.com:maheshbablu17/MoneyCop-nodejs.git",
-        "path" : "/home/ubuntu/production",
+        "path" : "/home/ubuntu",
         "post-deploy" : "npm install; grunt dist"
        }
     }
