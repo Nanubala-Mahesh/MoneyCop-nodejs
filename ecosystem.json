@@ -10,7 +10,7 @@
         "ref"  : "origin/master",
         "repo" : "git@github.com:maheshbablu17/MoneyCop-nodejs.git",
         "path" : "/home/ubuntu",
-        "post-deploy" : "npm install"
+        "post-deploy" : "sudo npm install"
        }
     }
  }
