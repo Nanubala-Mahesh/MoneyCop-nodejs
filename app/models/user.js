@@ -40,14 +40,7 @@ const userSchema = new Schema ({
         return 'invalid mobile format'
       }
     }
-  },
-  tokens: [
-    {
-      token: {
-        type: String
-      }
-    }
-  ]
+  }
 })
 
 
