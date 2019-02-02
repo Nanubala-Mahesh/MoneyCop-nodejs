@@ -1,0 +1,16 @@
+{
+    "apps" : [{
+       "name" : "HTTP-API",
+       "script" : "app.js"
+    }],
+    "deploy" : {
+      "production" : {
+        "user" : "ubuntu",
+        "host" : ["13.126.22.0"],
+        "ref"  : "origin/master",
+        "repo" : "git@github.com:maheshbablu17/MoneyCop-nodejs.git",
+        "path" : "/home/ubuntu/production",
+        "post-deploy" : "npm install; grunt dist"
+       }
+    }
+ }
